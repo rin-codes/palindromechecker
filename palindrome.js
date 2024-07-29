@@ -11,7 +11,7 @@ function palindrome() {
   if (String(newArray) === String(reverseArray)) {
     return result.innerText = `"${textInput.value}" is a palindrome.`;
   } else {
-    return result.innerText = `"${textInput.value}" is not a palindome`;
+    return result.innerText = `"${textInput.value}" is not a palindrome`;
   }
 }
 
