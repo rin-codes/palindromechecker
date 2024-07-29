@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+<title>Palindrome Checker</title> 
+<link rel="stylesheet" href="palindrome.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="img-div"><img id="bee-icon" src="media/icon.png" alt="bee-icon" loading="lazy"></div>
+  <div class="test-div"><input type="text" id="text-input" placeholder="Type a word" onkeydown="searchByEnter();">
+  <button onclick="
+    palindrome(), noInputAlert();
+  " id="check-btn">Check</button></div>
+  
+  <p id="result"></p>
+  
+  <div class="explanation-div"><p id="explanation"><span class="span-elem">Palindrome: </span>A word or group of words that is the same when you read it forwards from the beginning or backwards from the end. <i>"Palindrome"</i> derives from Greek roots that literally mean <i>“running back”.</i></p></div>
+  
+  <div class="footer-div"><footer id="footer">Coded & designed by <a href="https://github.com/rin-codes" class="github-link" target="_blank">Rin</a> - <a href="https://www.freecodecamp.org/learn" class="free-code-camp" target="_blank">freeCodeCamp</a> project</footer></div>
+
+  <script src="palindrome.js"></script>
+</body>
+
+</html>
